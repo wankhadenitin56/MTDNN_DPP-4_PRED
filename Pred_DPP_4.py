@@ -21,8 +21,8 @@ from keras.models import load_model
 import pickle
 
 # Set your default path here
-default_path = "E:/ARCHIT/Prediction"
-path = "E:/ARCHIT/Prediction"
+default_path = "E:/..../Prediction"
+path = "E:/..../Prediction"
 
 # Create function to get predictions using trained model
 def dpp4_multitasking(input_dpp4: pd.DataFrame, scaler: StandardScaler, loaded_model) -> tuple:
@@ -121,7 +121,7 @@ def run_multitasking_prediction(folder: str) -> None:
     print("Converted Regression Output (IC50 nanomolar):", res['Regression_output IC50 in Nanomolar'].values)
 
     # Save results to csv
-    res.to_csv("E:/ARCHIT/Prediction/DPP-4-multitasking_predictions.csv", index=False)
+    res.to_csv("E:/..../Prediction/DPP-4-multitasking_predictions.csv", index=False)
 
     return None
 
