@@ -8,7 +8,7 @@ The files contained in this repository are as follows:
  * ``prediction_script.py``: Main script to run predictions
  * ``smiles.smi``: User input structures (multiple)
  * ``multitasking_model.h5``: MTDNN prediction model
- * ``scaler_params.pkl``: Training dataset
+ * ``scaler_params.pkl``: Scaler parameters used during training
  * ``PaDEL``: Folder with executable for feature calculation
 
 ## Requirements
